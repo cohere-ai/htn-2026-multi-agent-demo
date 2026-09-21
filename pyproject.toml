@@ -1,0 +1,16 @@
+[project]
+name = "htn-2026-multi-agent-demo"
+version = "0.1.0"
+description = "MiniPlace notebook demos with North Mini Code peers and a Command A+ coordinator"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anywidget>=0.9,<1",
+    "cohere==7.1.1",
+    "ipykernel>=6.29,<8",
+    "jupyterlab>=4.4,<5",
+    "jsonschema>=4.23,<5",
+]
+
+[tool.uv]
+package = false

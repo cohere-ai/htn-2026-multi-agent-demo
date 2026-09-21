@@ -1,0 +1,8 @@
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+.ruff_cache/
+.env
+.env.*
+*.executed.ipynb
+runs/
